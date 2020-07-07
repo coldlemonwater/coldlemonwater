@@ -13,13 +13,18 @@
 /* BASE RULES */
 /**************/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+// Importing Google Fonts
+// font-family: 'Noto Serif', serif;
+// font-family: 'Roboto', sans-serif;
+
 html {
   font-size: 100%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $georgia;
+  font: 18px/1.4 'Roboto', $helveticaNeue, sans-serif;
   color: $darkGray;
 }
 
@@ -31,7 +36,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $georgia;
+  font-family: 'Noto Serif', $georgia, serif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -194,10 +199,10 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'Roboto', $helveticaNeue, sans-serif;
   font-weight: 300;
   font-size: 28px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .site-description {
@@ -213,7 +218,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: 'Roboto', $helveticaNeue, sans-serif;
   font-size: 18px;
 
   @include mobile {
