@@ -1,0 +1,23 @@
+---
+type: post
+title: Colour Palette
+---
+
+<p>A sampling of the colours used on this site.</p>
+
+<p style="color:#4183C4">Blue #4183C4</p>
+<p style="color:#003049">Dark Blue #003049</p>
+<p style="color:#F3EC45">Yellow #F3EC45</p>
+<p style="color:#D62828">Red #D62828</p>
+<p style="color:#9D0208">Dark Red #9D0208</p>
+<p style="color:#F77F00">Orange #F77F00</p>
+<p style="color:#FCBF49">Light Orange #FCBF49</p>
+<p style="color:#CCE365">Lime Green #CCE365</p>
+<p style="color:#A4DF97">Green #A4DF97</p>
+<p style="color:#6FC2A6">Dark Green #6FC2A6</p>
+
+<p style="color:#000">Black #000</p>
+<p style="color:#222">Darker Gray #222</p>
+<p style="color:#333">Dark Gray #333</p>
+<p style="color:#666">Gray #666</p>
+<p style="color:#eee">Light Gray #eee</p>
