@@ -13,19 +13,14 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-// Importing Google Fonts
-// font-family: 'Noto Serif', serif;
-// font-family: 'Roboto', sans-serif;
-
 html {
   font-size: 100%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 'Roboto', $helveticaNeue, sans-serif;
-  color: $darkerGray;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
 }
 
 .container {
@@ -36,8 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif', $georgia, serif;
-  color: $darkGreen;
+  font-family: $helveticaNeue;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -70,20 +65,20 @@ h4 {
 }
 
 p {
-  margin: 0 0 15px;
+  margin: 15px 0;
 }
 
 a {
-  color: $red;
-  text-decoration: underline dotted;
+  color: $blue;
+  text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $darkRed;
+    color: $blue;
   }
 }
 
 ul, ol {
-  margin: 15px 0 15px;
+  margin: 15px 0;
   padding-left: 30px;
 }
 
@@ -121,7 +116,7 @@ img {
 }
 
 .date {
-  font-style: italic
+  font-style: italic;
   color: $gray;
 }
 
@@ -199,10 +194,10 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: 'Roboto', $helveticaNeue, sans-serif;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
 }
 
 .site-description {
@@ -218,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: 'Roboto', $helveticaNeue, sans-serif;
+  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
